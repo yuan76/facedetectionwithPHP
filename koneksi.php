@@ -1,0 +1,15 @@
+<?php
+$host ="localhost:3306";
+$pass ="oemi1996";
+$user ="root";
+$db ="facedetection";
+
+$con = mysqli_connect($host, $user, $pass, $db);
+/*
+if ($conn->connect_error) {
+  echo $conn->connect_error;
+} else {
+  echo "konek loh";
+}
+*/
+?>
